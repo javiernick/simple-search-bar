@@ -56,9 +56,10 @@ function setLists(results){
 }
 
 function clearList(){
-    while (list.firstChild){
-        list.removeChild(list.lastChild)
-    }
+    list.textContent = '';
+    // while (list.firstChild){
+    //     list.removeChild(list.lastChild)
+    // }
 }
 
 const clearButton = document.getElementById('clear');
