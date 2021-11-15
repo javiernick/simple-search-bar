@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,31 @@
     <title>Search Bar</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <h1>SEARCH</h1>
 
-    <div class="form-container">
+        <div class="form-container">
 
-        <form action="" class="form">
-            <input id="search" type="text" class="input" placeholder="search...">
-            <button type="submit">Submit</button>
-            <button type="reset" id="clear" class="clear-results">Clear</button>
-        </form>
+            <form action="" class="form">
+                <input id="search" type="text" class="input" placeholder="search...">
+                <button type="submit">Submit</button>
+                <button type="reset" id="clear" class="clear-results">Clear</button>
+            </form>
+
+        </div>
+
+        <div class="results-container">
+            <ul id="list" class="results-list">
+
+            </ul>
+        </div>
 
     </div>
 
-    <div class="results-container">
-        <ul id="list" class="results-list">
-
-        </ul>
-    </div>
-   
 
     <script src="index.js"></script>
 </body>
+
 </html>
